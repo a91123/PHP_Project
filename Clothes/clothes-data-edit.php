@@ -6,6 +6,7 @@ require __DIR__ . '/parts/__connect_db.php';
 $sid = isset($_GET['sid']) ? intval($_GET['sid']) : 0;
 if(empty($sid)){
     header('Location:clothes-data-list.php');
+    echo 4455
     exit;
 }
 
